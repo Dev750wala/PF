@@ -24,7 +24,7 @@ const EducationCard = () => {
           <p className='bg-transparent md:pl-0 lg:pl-6 text-gray-400'>{edu.year}</p>
         </div>
         <div className='w-80 bg-transparent'>
-          <h6 className='font-extrabold bg-transparent'>
+          <h6 className='font-extrabold bg-transparent py-2'>
             {edu.name}
           </h6>
           <p className='bg-transparent'>

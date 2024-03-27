@@ -25,7 +25,7 @@ const Card = () => {
       </div>
         <div className="w-80 mt-10 lg:mt-0 bg-transparent">
           <h6 className="font-extrabold bg-transparent flex items-center">
-            <a href="#" className="no-underline bg-transparent text-gray-300 flex items-center">
+            <a href="#" className="no-underline bg-transparent text-gray-300 flex items-center py-2">
               {project.title} &nbsp;
               <svg
                 className={`transition-transform bi bi-arrow-up-right ${on[index] ? "translate-x-[4px] translate-y-[-4px]" : ""} bg-transparent`}
