@@ -1013,6 +1013,11 @@ video {
     padding-right: 4rem;
   }
 
+  .lg\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
   .lg\:pl-12 {
     padding-left: 3rem;
   }
