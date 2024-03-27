@@ -6,7 +6,7 @@ const Left1 = () => {
   return (
     <div className='mb-20 bg-transparent'>
       <div className='mb-20 bg-transparent'>
-        <h1 className="font-bold bg-transparent">Dev Sadisatsowala</h1>
+        <h1 className="font-bold bg-transparent text-4xl">Dev Sadisatsowala</h1>
         <h5 className='mb-4 md:text-sm lg:text-xl bg-transparent text-base'>Web Development Trainee</h5>
         <p className="text-gray-400 bg-transparent">{L_bio.bio}</p>
       </div>
