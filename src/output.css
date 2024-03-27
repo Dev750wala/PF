@@ -1037,6 +1037,11 @@ video {
     padding-right: 2.5rem;
   }
 
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
   .lg\:pl-12 {
     padding-left: 3rem;
   }
