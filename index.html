@@ -7,6 +7,7 @@
     <title>Dev Sadisatsowala</title>
 
     <link href="/src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="/src/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +19,25 @@
     <div class="glow-circle"></div>
     
     <script type="module" src="/src/main.jsx"></script>
-    <script src="./script.js"></script>
+    <!-- <script src="./script.js"></script> -->
 
+    <script>
+      const glowCircle = document.querySelector('.glow-circle');
+
+      document.addEventListener('mousemove', (event) => {
+        const mouseX = event.clientX;
+        const mouseY = event.clientY;
+
+        const scrollX = window.pageXOffset;
+        const scrollY = window.pageYOffset;
+
+        const circleX = mouseX + scrollX - glowCircle.clientWidth / 2;
+        const circleY = mouseY + scrollY - glowCircle.clientHeight / 2;
+
+        glowCircle.style.top = `${circleY}px`;
+        glowCircle.style.left = `${circleX}px`;
+      });
+
+    </script>
   </body>
 </html>
