@@ -1003,6 +1003,10 @@ video {
     justify-content: center;
   }
 
+  .lg\:bg-transparent {
+    background-color: transparent;
+  }
+
   .lg\:px-11 {
     padding-left: 2.75rem;
     padding-right: 2.75rem;
@@ -1016,6 +1020,11 @@ video {
   .lg\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+
+  .lg\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .lg\:pl-12 {
