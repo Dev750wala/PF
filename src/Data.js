@@ -1,3 +1,7 @@
+import shortURLImage from './Photos/project-url-shortener.png';
+import snakeGameImage from './Photos/project-snake-game.png';
+import indiaStatesImage from './Photos/project-india.jpg';
+
 // LEFT BIO
 export const L_bio = {
     bio: "I am learning full stack web development. Crafting digital experiences, end to end.",
@@ -17,23 +21,24 @@ export const R_bio = {
 export const projects = [
     {
         link: "https://github.com/Dev750wala/short-URL",
-        image: "./src/Photos/project-url-shortener.png",
+        image: shortURLImage,
         title: "URL Shortener",        
-        description: "designed to provide a more convenient and efficient way to manage long URLs. Built using MongoDB, Express and NodeJS, it offers a robust and scalable solution for URL management."
+        description: "designed to provide a more convenient and efficient way to manage long URLs. Built using MongoDB, Express, and NodeJS, it offers a robust and scalable solution for URL management."
     },
     {
         link: "https://github.com/Dev750wala/Snake_Game",
-        image: "/src/Photos/project-snake-game.png",
+        image: snakeGameImage, 
         title: "Snake Game",
         description: "Don't you remember the good old days of gaming when you spent hours chasing that pixelated snake on your Nokia phone? Here is what I have made the simple version of that game."
     },
     {
         link: "https://github.com/Dev750wala/India-states",
-        image: "/src/Photos/project-india.jpg",
+        image: indiaStatesImage,
         title: "India States",
         description: "Python-based quiz game designed with the help of Turtle to test your knowledge of the states in India. The game prompts users to input the names of Indian states, and for each correct answer, the user's score increases."
     },
-]
+];
+
 
 export const education = [
     {
