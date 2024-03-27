@@ -1034,6 +1034,14 @@ video {
     padding-top: 0px;
   }
 
+  .lg\:pl-3 {
+    padding-left: 0.75rem;
+  }
+
+  .lg\:pl-4 {
+    padding-left: 1rem;
+  }
+
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
