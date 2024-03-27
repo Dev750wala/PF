@@ -15,7 +15,7 @@ const Technologies = () => {
   return (
     <div className='bg-transparent mx-auto' id='skills'>
       <CardHeading />
-      <h1 className='block lg:hidden bg-transparent mb-14 font-bold pl-4'>Skills</h1>
+      <h1 className='block lg:hidden bg-transparent mb-14 font-bold pl-4 text-4xl'>Skills</h1>
       <div className='flex gap-5 flex-wrap pb-40 bg-transparent'>
         <HTML />
         <CSS />

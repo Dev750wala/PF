@@ -11,7 +11,7 @@ const ProjectMain = () => {
 
   return (
     <div className='mb-56 bg-transparent' id='projects'>
-      <h1 className='block lg:hidden bg-transparent mb-14 font-bold pl-4'>Projects</h1>
+      <h1 className='block lg:hidden bg-transparent mb-14 font-bold pl-4 text-4xl'>Projects</h1>
       <Card />
 
       <a onMouseEnter={handleHover} onMouseLeave={handleHover} href='https://github.com/Dev750wala?tab=repositories' target='_blank' className='no-underline font-bold'>
