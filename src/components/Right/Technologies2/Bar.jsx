@@ -6,7 +6,7 @@ const SkillDisplay = () => {
 
         <div className='bg-transparent pl-4'>
             <div className='bg-transparent py-10 mb-10'>
-                <h3 className='bg-transparent font-bold text-gray-300 text-9xl'>My tech stack</h3>
+                <h2 className='bg-transparent font-bold text-gray-300 text-9xl'>My tech stack</h2>
             </div>
 
             <div className='bg-transparent flex flex-row flex-wrap justify-start items-center gap-3 my-56 py-32'>
