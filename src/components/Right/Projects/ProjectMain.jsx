@@ -10,7 +10,7 @@ const ProjectMain = () => {
   }
 
   return (
-    <div className='mb-56 bg-transparent' id='projects'>
+    <div className='mb-56 bg-transparent mt-28' id='projects'>
       <h1 className='block lg:hidden bg-transparent mb-14 font-bold pl-4 text-4xl'>Projects</h1>
       <Card />
 

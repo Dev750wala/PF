@@ -27,7 +27,7 @@ const EducationCard = () => {
           <h6 className='font-extrabold bg-transparent py-2'>
             {edu.name}
           </h6>
-          <p className='bg-transparent'>
+          <p className='bg-transparent text-sm'>
             {edu.description}
           </p>
         </div>

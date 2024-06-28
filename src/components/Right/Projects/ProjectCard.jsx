@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { projects } from "../../../Data"
+import TechButton from './TechButton';
 
 const Card = () => {
   const [on, setOn] = useState(new Array(projects.length).fill(false));
@@ -20,12 +21,12 @@ const Card = () => {
         onMouseLeave={() => handleHover(index)}
         key={index}
       >
-      <div className="p-2 w-44 bg-transparent lg:mt-0 lg:pt-0 flex lg:justify-center justify-start items-start pb-96">
-        <img className="bg-transparent lg:mt-0 lg:pt-0 select-none" src={project.image} alt={project.title} />
-      </div>
+        <div className="p-2 w-44 bg-transparent lg:mt-0 lg:pt-0 flex lg:justify-center justify-start items-start pb-96">
+          <img className="bg-transparent lg:mt-0 lg:pt-0 select-none" src={project.image} alt={project.title} />
+        </div>
         <div className="w-80 mt-10 lg:mt-0 bg-transparent">
           <h6 className="font-extrabold bg-transparent flex items-center">
-            <a href="#" className="no-underline bg-transparent text-gray-300 flex items-center py-2">
+            <a href="#" className="no-underline bg-transparent text-gray-300 flex items-center pt-2 pb-0 mb-0">
               {project.title} &nbsp;
               <svg
                 className={`transition-transform bi bi-arrow-up-right ${on[index] ? "translate-x-[4px] translate-y-[-4px]" : ""} bg-transparent`}
@@ -39,7 +40,8 @@ const Card = () => {
               </svg>
             </a>
           </h6>
-          <p className="bg-transparent">{project.description}</p>
+          <p className="bg-transparent text-sm pt-0 mt-0">{project.description}</p>
+          <TechButton technologyNames={project.technologies}/>
         </div>
       </a>
     ))
