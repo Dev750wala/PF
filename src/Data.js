@@ -10,11 +10,11 @@ export const L_bio = {
 // RIGHT BIO
 export const R_bio = {
     p1: 
-        "Back in 2022, I decided to try my hand at web development and tumbled headfirst into the rabbit hole of   coding and web development. Fast-forward to today, and I've had a great journey of learning new technologies and tools.",
+        "Back in 2022, I decided to try my hand at web development and tumbled headfirst into the exciting world of coding and technology. Fast-forward to today, and my journey has been a rewarding one, filled with learning new technologies and tools along the way.",
     p2: 
-        "I focus on building personal and college projects, enjoying the challenge of integrating backend functionality with robust security. In my free time, I immerse myself in cybersecurity and tech news, constantly expanding my expertise to enhance digital security.",
+        "Currently, I'm diving into the cutting-edge realm of Web3 development, with a focus on the Ethereum network. I enjoy building personal and college projects, integrating backend functionality with a strong emphasis on security, and now exploring the decentralized web's potential. In my free time, I stay immersed in cybersecurity and tech news, constantly expanding my knowledge to enhance digital security in this rapidly evolving space.",
     p3: 
-        "When I'm not engrossed in learning, I enjoy taking some downtime to unwind. This usually involves cozying up with a good movie, getting lost in the pages of a book, exploring new places on spontaneous adventures, and, of course, making friends with the neighborhood cats."
+        "When I'm not engrossed in learning or developing, I enjoy taking some downtime to unwind. This usually involves cozying up with a good movie, getting lost in the pages of a book, exploring new places on spontaneous adventures, and, of course, making friends with the neighborhood cats."
 }
 
 // PROJECTS

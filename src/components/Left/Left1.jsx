@@ -22,7 +22,7 @@ const Left1 = () => {
           <ScrollLink className='font-bold bg-transparent no-underline text-gray-400 group-hover:text-gray-200 cursor-pointer tracking-widest text-xs' to="projects" duration={500} offset={-100}>PROJECTS</ScrollLink>
         </h6>
         <h6 className='text-sm my-3 bg-transparent group'>
-          <ScrollLink className='font-bold bg-transparent no-underline text-gray-400 group-hover:text-gray-200 cursor-pointer tracking-widest text-xs' to="education" duration={500} offset={-120}>EDUCATION</ScrollLink>
+          <ScrollLink className='font-bold bg-transparent no-underline text-gray-400 group-hover:text-gray-200 cursor-pointer tracking-widest text-xs' to="education" duration={500} offset={-100}>EDUCATION</ScrollLink>
         </h6>
 
       </div>
