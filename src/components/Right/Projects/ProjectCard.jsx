@@ -16,12 +16,12 @@ const Card = () => {
       <a
         href={project.link}
         target="_blank"
-        className="no-underline flex flex-col lg:flex-row items-center justify-between mb-14 rounded-lg p-3 bg-slate-500 bg-opacity-0 hover:bg-opacity-20 transition-colors"
+        className="no-underline flex flex-col lg:flex-row items-center justify-between mb-14 rounded-lg p-3 bg-slate-500 bg-opacity-0 hover:bg-opacity-20 transition-colors gap-3"
         onMouseEnter={() => handleHover(index)}
         onMouseLeave={() => handleHover(index)}
         key={index}
       >
-        <div className="p-2 w-44 bg-transparent lg:mt-0 lg:pt-0 flex lg:justify-center justify-start items-start pb-96">
+        <div className="p-2 w-44 bg-transparent lg:mt-0 lg:pt-0 flex lg:justify-center justify-start items-start pb-96 md:mt-10 ">
           <img className="bg-transparent lg:mt-0 lg:pt-0 select-none" src={project.image} alt={project.title} />
         </div>
         <div className="w-80 mt-10 lg:mt-0 bg-transparent">

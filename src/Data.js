@@ -1,6 +1,8 @@
 import shortURLImage from './Photos/project-url-shortener.png';
 import snakeGameImage from './Photos/project-snake-game.png';
 import indiaStatesImage from './Photos/project-india.jpg';
+import ProjectManageproject from './Photos/ProjectManageproject.png';
+
 
 // LEFT BIO
 export const L_bio = {
@@ -20,18 +22,18 @@ export const R_bio = {
 // PROJECTS
 export const projects = [
     {
+        link: "https://github.com/Dev750wala/Hackathon-SCET",
+        image: ProjectManageproject, 
+        title: "Project Collaboration Platform",
+        description: "A project management platform designed to facilitate collaboration among team members. It offers a seamless experience for users / admins to manage projects, tasks, and deadlines.",
+        technologies: ['MongoDB', 'Express.JS', 'Node.js', 'ReactJS', "TypeScript", "Redux", "TailwindCSS"],
+    },
+    {
         link: "https://github.com/Dev750wala/short-URL",
         image: shortURLImage,
         title: "URL Shortener",        
         description: "designed to provide a more convenient and efficient way to manage long URLs. Built using MongoDB, Express, and NodeJS, it offers a robust and scalable solution for URL management.",
         technologies: ['MongoDB', 'Express.JS', 'Node.js', 'EJS'],
-    },
-    {
-        link: "https://github.com/Dev750wala/Snake_Game",
-        image: snakeGameImage, 
-        title: "Snake Game",
-        description: "Don't you remember the good old days of gaming when you spent hours chasing that pixelated snake on your Nokia phone? Here is what I have made the simple version of that game.",
-        technologies: ['Python'],
     },
     {
         link: "https://github.com/Dev750wala/India-states",
@@ -56,22 +58,7 @@ export const education = [
     },
 ]
 
-export const Love_Ending = "Made with 💖 and with the blessings of Hari🦚. Coded in Visual Studio Code by yours truly. Built with React.js and Tailwind CSS, and deployed with Vercel."
-
-export const technologies = [
-    { name: 'HTML', value: 75 },
-    { name: 'CSS', value: 65 },
-    { name: 'Tailwind', value: 70 },
-    { name: 'NodeJS', value: 62 },
-    { name: 'Express.JS', value: 52 },
-    { name: 'Python', value: 80 },
-    { name: 'MongoDB', value: 64 },
-    { name: 'PostgresSQL', value: 52 },
-    { name: 'React', value: 67 },
-    { name: 'Next.JS', value: 54 },
-];
-
-
+export const Love_Ending = "Made with 💖 and with the blessings of Hari🦚. Coded in Visual Studio Code. Built with React.js and Tailwind CSS, and deployed with Vercel."
 
 
 // npx tailwindcss -i ./src/input.css -o ./src/output.css --watch

@@ -27,3 +27,21 @@
   box-shadow:
     0 0 290px 250px #102863; 
 }
+
+
+.tech-stack {
+  text-align: center;
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #007bff;
+  border-radius: 5px;
+}

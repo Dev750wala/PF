@@ -5,8 +5,6 @@ import StickyTopBar from '../StickyTopBar';
 const Intro = () => {
   return (
     <>
-      {/* Correctly passing the id as a string */}
-      {/* <StickyTopBar id={"about"} textToBeInDiv={"About Me"} /> */}
 
       <div className="mb-56 bg-transparent pl-3 lg:pr-20" id="about">
         <h1 className="block lg:hidden bg-transparent mb-10 font-bold text-4xl">About me</h1>
