@@ -5,10 +5,7 @@
 
 * {
   /* font-family: "Inter", sans-serif; */
-  font-family: __inter_20b187, __inter_Fallback_20b187, ui-sans-serif, system-ui,
-    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
-    Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Roboto", sans-serif;
   background-color: #0f172a;
   color: #c4d0ec;
   scroll-behavior: smooth;
