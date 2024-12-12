@@ -5,15 +5,18 @@
 
 * {
   /* font-family: "Inter", sans-serif; */
-  font-family: "Roboto Flex", sans-serif;
+  font-family: __inter_20b187, __inter_Fallback_20b187, ui-sans-serif, system-ui,
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
   background-color: #0f172a;
-  color: #C4D0EC;
+  color: #c4d0ec;
   scroll-behavior: smooth;
 }
 
 ::selection {
-  background-color: #54D3D4;
-  color: #144E5F;
+  background-color: #54d3d4;
+  color: #144e5f;
 }
 
 .glow-circle {
@@ -24,10 +27,10 @@
   top: -100px;
   left: -100px;
   z-index: 0;
-  box-shadow:
-    0 0 290px 250px #102863; 
+  /* box-shadow: 0 0 290px 250px #091942; */
+  box-shadow: 0 0 290px 250px #00174ffd;
+  /* box-shadow: 0 0 290px 250px #102863;   original */
 }
-
 
 .tech-stack {
   text-align: center;

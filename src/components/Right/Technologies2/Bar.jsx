@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
-import { SiHtml5, SiCss3, SiTailwindcss, SiJavascript, SiReact, SiTypescript, SiNextdotjs, SiRedux, SiExpress, SiPython, SiNodedotjs, SiMongodb, SiPostgresql } from 'react-icons/si'
+import { SiHtml5, SiCss3, SiTailwindcss, SiJavascript, SiReact, SiTypescript, SiNextdotjs, SiRedux, SiExpress, SiPython, SiNodedotjs, SiMongodb, SiPostgresql, SiPrisma } from 'react-icons/si'
 
 const SkillDisplay = () => {
     const [hoveredIndex, setHoveredIndex] = useState(null)
@@ -18,12 +18,13 @@ const SkillDisplay = () => {
         { name: 'Redux', icon: <SiRedux className='bg-transparent' /> },
         { name: 'Python', icon: <SiPython className='bg-transparent' /> },
         { name: 'MongoDB', icon: <SiMongodb className='bg-transparent' /> },
-        { name: 'PostgreSQL', icon: <SiPostgresql className='bg-transparent' /> }
+        { name: 'PostgreSQL', icon: <SiPostgresql className='bg-transparent' /> },
+        { name: 'PrismaORM', icon: <SiPrisma className='bg-transparent' /> }
     ]
 
     return (
         <div className="container mx-auto bg-transparent" id='skills'>
-            <h1 className='block lg:hidden bg-transparent mb-14 font-bold pl-4 text-4xl'>My Tech Stack</h1>
+            <h1 className='block lg:hidden bg-transparent mb-14 font-bold pl-2 text-4xl'>My Tech Stack</h1>
             <div className="flex flex-row flex-wrap md:justify-center gap-20 bg-transparent">
                 {technologies.map((tech, index) => (
                     <motion.div

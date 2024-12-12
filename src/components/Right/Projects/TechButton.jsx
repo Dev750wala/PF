@@ -2,7 +2,7 @@ import React from 'react';
 
 const TechButton = ({ technologyNames }) => {
     return (
-        <div className='flex flex-row flex-wrap gap-3 mt-2 bg-transparent'>
+        <div className='flex flex-row flex-wrap gap-2 mt-2 bg-transparent'>
             {
                 technologyNames.map((tech, index) => (
                     <div key={index} className='flex justify-center items-center w-16 h-16 bg-transparent' style={{ backgroundColor: '#143fab' }}>
