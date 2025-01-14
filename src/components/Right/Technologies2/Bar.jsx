@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
-import { SiHtml5, SiCss3, SiTailwindcss, SiJavascript, SiReact, SiTypescript, SiNextdotjs, SiRedux, SiExpress, SiPython, SiNodedotjs, SiMongodb, SiPostgresql, SiPrisma } from 'react-icons/si'
+import { SiHtml5, SiCss3, SiTailwindcss, SiJavascript, SiReact, SiTypescript, SiNextdotjs, SiRedux, SiExpress, SiPython, SiNodedotjs, SiMongodb, SiPostgresql, SiPrisma, SiSolidity, SiEthereum } from 'react-icons/si'
 
 const SkillDisplay = () => {
     const [hoveredIndex, setHoveredIndex] = useState(null)
@@ -19,7 +19,9 @@ const SkillDisplay = () => {
         { name: 'Python', icon: <SiPython className='bg-transparent' /> },
         { name: 'MongoDB', icon: <SiMongodb className='bg-transparent' /> },
         { name: 'PostgreSQL', icon: <SiPostgresql className='bg-transparent' /> },
-        { name: 'PrismaORM', icon: <SiPrisma className='bg-transparent' /> }
+        { name: 'PrismaORM', icon: <SiPrisma className='bg-transparent' /> },
+        { name: 'Ethereum', icon: <SiEthereum className='bg-transparent' /> },
+        { name: 'Solidity', icon: <SiSolidity className='bg-transparent' /> },
     ]
 
     return (
