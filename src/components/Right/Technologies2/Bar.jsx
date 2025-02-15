@@ -19,9 +19,12 @@ import {
   SiEthereum,
 } from "react-icons/si";
 
-import { Marquee } from "@devnomic/marquee";
+// import React from "react";
+
+
+// import { Marquee } from "@devnomic/marquee";
 // if you copy ala shadcn, no need import css.
-import "@devnomic/marquee/dist/index.css";
+// import "@devnomic/marquee/dist/index.css";
 
 const SkillDisplay = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -50,7 +53,10 @@ const SkillDisplay = () => {
       <h1 className="block lg:hidden bg-transparent mb-14 font-bold pl-2 text-4xl">
         My Tech Stack
       </h1>
-      <div className="flex flex-row flex-wrap md:justify-center gap-20 bg-transparent">
+      <div
+        style={{ backgroundColor: "transparent" }}
+        className="flex flex-row flex-wrap md:justify-center gap-20 bg-transparent"
+      >
         {/* <Marquee
             className="bg-transparent"
             style={{backgroundColor: "transparent"}}

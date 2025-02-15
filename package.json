@@ -12,6 +12,7 @@
   "dependencies": {
     "@devnomic/marquee": "^1.0.3",
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@lottiefiles/dotlottie-react": "^0.12.3",
     "autoprefixer": "^10.4.18",
     "framer-motion": "^11.11.17",
     "postcss-cli": "^11.0.0",

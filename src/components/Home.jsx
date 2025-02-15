@@ -1,6 +1,7 @@
 import Left_Div from "./Left/Left_Div";
 import Right_Div from "./Right/Right_Div";
 import React from "react";
+import CatFormIcon from "./CatFormIcon";
 
 const Home = () => {
   return (
