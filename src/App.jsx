@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-// import Left_Div from "./components/Left/Left_Div";
-// import Right_Div from "./components/Right/Right_Div";
 import GlowCircle from "./components/GlowCircle";
 import Loader from "./components/Loader";
 import { motion } from "framer-motion";
@@ -59,4 +57,3 @@ function App() {
 
 export default App;
 
-// mt-24 lg:mt-28
