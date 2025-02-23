@@ -37,4 +37,5 @@ const StickyTopBar = ({ id, textToBeInDiv }) => {
     );
 };
 
+
 export default StickyTopBar;
