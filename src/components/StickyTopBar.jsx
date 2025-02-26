@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
+
 const StickyTopBar = ({ id, textToBeInDiv }) => {
     const [isSticky, setIsSticky] = useState(false);
 
