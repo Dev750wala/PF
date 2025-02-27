@@ -47,7 +47,7 @@ export const projects = [
 
 export const education = [
     {
-        year: "2022 — 2026",
+        year: "2022 — PRESENT",
         name: "SCET, Surat",
         description: "I am currently pursuing a bachelor's degree in Computer Engineering while delving deeply into web development technologies."
     },
